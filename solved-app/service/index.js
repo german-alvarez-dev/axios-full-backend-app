@@ -3,7 +3,6 @@ const axios = require('axios')
 class CharactersApi {
 
     constructor() {
-        console.log('skjghshs')
         this.api = axios.create({
             baseURL: 'https://ih-crud-api.herokuapp.com'
         })
